@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://bor7r8u3tsxgs"]
+
+[ext_resource type="FontFile" uid="uid://xs2fw1d21j10" path="res://assets/fonts/Kenney Pixel Square.ttf" id="1_ek3rc"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 334.0
+offset_top = 240.0
+offset_right = 558.0
+offset_bottom = 320.0
+theme_override_fonts/font = ExtResource("1_ek3rc")
+theme_override_font_sizes/font_size = 48
+text = "BUTTON"

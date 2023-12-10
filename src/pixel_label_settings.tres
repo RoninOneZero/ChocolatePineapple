@@ -1,0 +1,7 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://d5eo0h06301v"]
+
+[ext_resource type="FontFile" uid="uid://xs2fw1d21j10" path="res://assets/fonts/Kenney Pixel Square.ttf" id="1_1lcmx"]
+
+[resource]
+font = ExtResource("1_1lcmx")
+font_size = 49

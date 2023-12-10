@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://ch5ft76c0c0pj"]
+
+[ext_resource type="Script" path="res://scenes/main.gd" id="1_c5mxl"]
+[ext_resource type="PackedScene" uid="uid://dgtitbvqrjqk8" path="res://scenes/world.tscn" id="2_37wjc"]
+[ext_resource type="PackedScene" uid="uid://hk1w7j21p2yu" path="res://scenes/main_menu.tscn" id="3_wornj"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_c5mxl")
+packed_game = ExtResource("2_37wjc")
+
+[node name="MainMenu" parent="." instance=ExtResource("3_wornj")]
